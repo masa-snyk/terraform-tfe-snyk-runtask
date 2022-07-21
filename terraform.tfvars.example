@@ -1,3 +1,4 @@
 organization = "masa_org"
+workspace = "sample_ws"
 snyk_url     = "https://api.snyk.io/v1/terraform-cloud/18f18d60-xxxx-xxxx-xxxx-98b9ff7xxxxx"
 snyk_hmac    = "9ac344dxxxxxxx9aa313a273cba21xxxxxxxx331ae046e920cde3003"

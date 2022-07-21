@@ -21,7 +21,7 @@ resource "tfe_organization_run_task" "org_runtask" {
 }
 
 resource "tfe_workspace" "ws" {
-  name         = "snyk_runtask_integration_demo"
+  name         = var.workspace
   organization = data.tfe_organization.my_org.name
   tag_names    = ["test", "demo", "snyk"]
 }
